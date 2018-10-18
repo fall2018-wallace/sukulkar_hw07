@@ -17,7 +17,7 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
+                    "output": "dfClean",
                     "type": "csv"
                 }
             ],
@@ -36,9 +36,9 @@
             "assigned_to": "sukulkar",
             "desc": "Cleaning dataframe.\r\nRemoving first and last rows. \r\nRemoving first four columns.\r\nRenaming columns.",
             "name": "clean.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 03:01:59",
+    "updated_at": "2018-10-18 03:07:14",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
