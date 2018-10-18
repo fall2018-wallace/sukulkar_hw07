@@ -25,7 +25,12 @@
             "target": "data.csv"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
             "source": "CopyUSArrests.R",
             "target": "MergeDatasets.R"
         }
@@ -62,6 +67,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 03:23:12",
+    "updated_at": "2018-10-18 03:24:28",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
