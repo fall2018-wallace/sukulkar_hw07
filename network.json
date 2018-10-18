@@ -45,10 +45,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "sukulkar",
             "desc": "Merge census dataset and USArrests using the hint given in the assignment",
-            "name": "MergeDatasets.R"
+            "name": "MergeDatasets.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "Add state area and state center",
+            "name": "AddColumns.R"
         }
     ],
-    "updated_at": "2018-10-18 03:13:54",
+    "updated_at": "2018-10-18 03:14:57",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
