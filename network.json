@@ -39,10 +39,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "sukulkar",
             "desc": "Copy USArrests data frame",
-            "name": "CopyUSArrests.R"
+            "name": "CopyUSArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "Merge census dataset and USArrests using the hint given in the assignment",
+            "name": "MergeDatasets.R"
         }
     ],
-    "updated_at": "2018-10-18 03:11:57",
+    "updated_at": "2018-10-18 03:13:54",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
