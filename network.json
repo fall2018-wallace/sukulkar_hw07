@@ -33,6 +33,16 @@
             ],
             "source": "CopyUSArrests.R",
             "target": "MergeDatasets.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "dfMerged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeDatasets.R",
+            "target": "AddColumns.R"
         }
     ],
     "nodes": [
@@ -67,6 +77,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 03:24:28",
+    "updated_at": "2018-10-18 03:24:47",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
