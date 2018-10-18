@@ -25,11 +25,6 @@
             "target": "AddColumns.R"
         },
         {
-            "ports": [],
-            "source": "clean.R",
-            "target": "MergeDatasets.R"
-        },
-        {
             "ports": [
                 {
                     "input": "arrests",
@@ -38,6 +33,17 @@
                 }
             ],
             "source": "CopyUSArrests.R",
+            "target": "MergeDatasets.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfClean",
+                    "output": "dfClean",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
             "target": "MergeDatasets.R"
         }
     ],
@@ -70,6 +76,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 17:36:39",
+    "updated_at": "2018-10-18 17:36:55",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
