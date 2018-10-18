@@ -30,12 +30,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "sukulkar",
+            "desc": "Cleaning dataframe.\r\nRemoving first and last rows. \r\nRemoving first four columns.\r\nRenaming columns.",
+            "name": "clean.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-18 03:00:06",
+    "updated_at": "2018-10-18 03:01:59",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
