@@ -46,6 +46,17 @@
             ],
             "source": "MergeDatasets.R",
             "target": "AddColumns.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfMergedACN",
+                    "output": "dfMergedACN",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "AddColumns.R",
+            "target": "Maps.R"
         }
     ],
     "nodes": [
@@ -77,10 +88,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "sukulkar",
             "desc": "Creating maps as per homework.",
-            "name": "Maps.R"
+            "name": "Maps.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:21:32",
+    "updated_at": "2018-10-25 16:22:35",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
