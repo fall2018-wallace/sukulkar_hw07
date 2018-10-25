@@ -75,8 +75,12 @@
             "desc": "Merge census dataset and USArrests using ",
             "name": "MergeDatasets.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Creating maps as per homework.",
+            "name": "Maps.R"
         }
     ],
-    "updated_at": "2018-10-25 16:18:45",
+    "updated_at": "2018-10-25 16:21:32",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
