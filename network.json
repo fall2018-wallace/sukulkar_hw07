@@ -76,10 +76,10 @@
             "task_status": "in progress"
         },
         {
-            "desc": "",
+            "desc": "Merge census dataset and USArrests using ",
             "name": "xyz.R"
         }
     ],
-    "updated_at": "2018-10-25 16:14:46",
+    "updated_at": "2018-10-25 16:15:09",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
