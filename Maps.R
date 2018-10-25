@@ -1,5 +1,6 @@
 
 library(maps)
+library(ggmap)
 
 mapState <- map_data("state")
 dfMergedACN$stateName<-tolower(dfMergedACN$stateName)
