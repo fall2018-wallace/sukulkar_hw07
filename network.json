@@ -92,8 +92,11 @@
             "desc": "Creating maps as per homework.",
             "name": "Maps.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "mapAreaState.png"
         }
     ],
-    "updated_at": "2018-10-25 16:22:35",
+    "updated_at": "2018-10-25 16:23:46",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
