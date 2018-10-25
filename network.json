@@ -105,8 +105,11 @@
         },
         {
             "name": "mapAreaState.png"
+        },
+        {
+            "name": "mapMurderState.png"
         }
     ],
-    "updated_at": "2018-10-25 16:23:56",
+    "updated_at": "2018-10-25 16:24:12",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
