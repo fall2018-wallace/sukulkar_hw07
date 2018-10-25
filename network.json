@@ -37,7 +37,13 @@
             "target": "MergeDatasets.R"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "dfMerged",
+                    "output": "dfMerged",
+                    "type": "r_obj"
+                }
+            ],
             "source": "MergeDatasets.R",
             "target": "AddColumns.R"
         }
@@ -71,6 +77,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:18:11",
+    "updated_at": "2018-10-25 16:18:45",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
