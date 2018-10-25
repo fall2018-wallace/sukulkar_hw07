@@ -1,0 +1,164 @@
+{
+    "collaborators": [
+        "sukulkar"
+    ],
+    "created_at": "2018-10-18 02:59:09",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfClean",
+                    "output": "dfClean",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeDatasets.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "CopyUSArrests.R",
+            "target": "MergeDatasets.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfMerged",
+                    "output": "dfMerged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeDatasets.R",
+            "target": "AddColumns.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfMergedACN",
+                    "output": "dfMergedACN",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "AddColumns.R",
+            "target": "Maps.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapAreaState",
+                    "type": "png"
+                }
+            ],
+            "source": "Maps.R",
+            "target": "mapAreaState.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapMurderState",
+                    "type": "png"
+                }
+            ],
+            "source": "Maps.R",
+            "target": "mapMurderState.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapMurderCircle",
+                    "type": "png"
+                }
+            ],
+            "source": "Maps.R",
+            "target": "mapMurderCircle.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapMurderStateNE",
+                    "type": "png"
+                }
+            ],
+            "source": "Maps.R",
+            "target": "mapMurderStateNE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapMurderCircleNE",
+                    "type": "png"
+                }
+            ],
+            "source": "Maps.R",
+            "target": "mapMurderCircleNE.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "sukulkar",
+            "desc": "Cleaning dataframe.\r\nRemoving first and last rows. \r\nRemoving first four columns.\r\nRenaming columns.",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sukulkar",
+            "desc": "Add state area and state center",
+            "name": "AddColumns.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sukulkar",
+            "desc": "Copy USArrests data frame",
+            "name": "CopyUSArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sukulkar",
+            "desc": "Merge census dataset and USArrests using ",
+            "name": "MergeDatasets.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sukulkar",
+            "desc": "Creating maps as per homework.",
+            "name": "Maps.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "mapAreaState.png"
+        },
+        {
+            "name": "mapMurderState.png"
+        },
+        {
+            "name": "mapMurderCircle.png"
+        },
+        {
+            "name": "mapMurderStateNE.png"
+        },
+        {
+            "name": "mapMurderCircleNE.png"
+        }
+    ],
+    "updated_at": "2018-10-25 16:25:32",
+    "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
+}
