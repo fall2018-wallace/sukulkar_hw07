@@ -97,6 +97,16 @@
             ],
             "source": "Maps.R",
             "target": "mapMurderStateNE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapMurderCircleNE",
+                    "type": "png"
+                }
+            ],
+            "source": "Maps.R",
+            "target": "mapMurderCircleNE.png"
         }
     ],
     "nodes": [
@@ -149,6 +159,6 @@
             "name": "mapMurderCircleNE.png"
         }
     ],
-    "updated_at": "2018-10-25 16:25:24",
+    "updated_at": "2018-10-25 16:25:32",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
