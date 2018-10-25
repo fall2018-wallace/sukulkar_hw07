@@ -57,6 +57,16 @@
             ],
             "source": "AddColumns.R",
             "target": "Maps.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapAreaState",
+                    "type": "png"
+                }
+            ],
+            "source": "Maps.R",
+            "target": "mapAreaState.png"
         }
     ],
     "nodes": [
@@ -97,6 +107,6 @@
             "name": "mapAreaState.png"
         }
     ],
-    "updated_at": "2018-10-25 16:23:46",
+    "updated_at": "2018-10-25 16:23:56",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
