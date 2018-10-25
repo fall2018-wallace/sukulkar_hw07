@@ -23,7 +23,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "xyz.R"
+            "target": "MergeDatasets.R"
         },
         {
             "ports": [
@@ -34,7 +34,7 @@
                 }
             ],
             "source": "CopyUSArrests.R",
-            "target": "xyz.R"
+            "target": "MergeDatasets.R"
         }
     ],
     "nodes": [
@@ -62,10 +62,10 @@
         {
             "assigned_to": "sukulkar",
             "desc": "Merge census dataset and USArrests using ",
-            "name": "xyz.R",
+            "name": "MergeDatasets.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:16:33",
+    "updated_at": "2018-10-25 16:16:51",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
