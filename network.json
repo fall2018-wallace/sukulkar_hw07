@@ -56,6 +56,17 @@
             ],
             "source": "clean.R",
             "target": "xyz.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "CopyUSArrests.R",
+            "target": "xyz.R"
         }
     ],
     "nodes": [
@@ -93,6 +104,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:16:07",
+    "updated_at": "2018-10-25 16:16:23",
     "url": "https://github.com/fall2018-wallace/sukulkar_hw07"
 }
